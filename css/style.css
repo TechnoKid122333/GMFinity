@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
 section {
   height: 100vh;
   width: 100%;
+  background: #131b21;
 }
 
 .background-img {
@@ -24,4 +26,33 @@ section {
 .background-img img {
   height: 100%;
   width: 100%;
+}
+
+.navbar {
+  display: grid;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  height: 60px;
+  width: 100%;
+  background: #202225;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+
+.navbar .logo {
+  grid-column-start: 2;
+}
+
+.navbar .nav-btns {
+  grid-column-start: 3;
+  display: grid;
+  float: right;
+}
+
+.navbar .nav-btns a {
+  color: white;
+  text-decoration: none;
+  float: right;
 }
