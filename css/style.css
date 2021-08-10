@@ -46,13 +46,17 @@ section {
 }
 
 .navbar .nav-btns {
+  position: relative;
   grid-column-start: 3;
-  display: grid;
-  float: right;
 }
 
 .navbar .nav-btns a {
   color: white;
   text-decoration: none;
-  float: right;
+  float: left;
+  margin-left: 20px;
+}
+
+.welcome-message {
+  color: white;
 }
