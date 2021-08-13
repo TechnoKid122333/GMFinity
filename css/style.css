@@ -78,3 +78,11 @@ section {
   margin-top: 550px;
   margin-left: 550px;
 }
+
+.landing-page h1 i {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 17px;
+  position: relative;
+  left: 125px;
+}
